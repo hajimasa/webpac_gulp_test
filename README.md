@@ -1,1 +1,3 @@
 # webpac_gulp_test
+webpackとgulpのテストを行います。
+webpackでモジュールをバンドルし、gulpで自動的にバンドウルできるようする。
