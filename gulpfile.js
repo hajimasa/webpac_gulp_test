@@ -9,3 +9,8 @@ gulp.task('webpack', function() {
   return webpackStream(webpackConfig, webpack)
   .pipe(gulp.dest('./')); 
 });
+
+//変更監視
+gulp.task('watch', function(){
+    gulp.watch('./src/js/**/*.js', ['webpack']);
+});
